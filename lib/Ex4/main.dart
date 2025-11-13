@@ -71,7 +71,6 @@ class MyApp extends StatelessWidget {
         body: Padding(
           padding: EdgeInsets.all(40.0),
           child: ListView.separated(
-            //crossAxisAlignment: CrossAxisAlignment.stretch,
             itemCount: Weather.values.length,
             separatorBuilder: (_, __) => const SizedBox(height: 16),
             itemBuilder: (context, index) {
